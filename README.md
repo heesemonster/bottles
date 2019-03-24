@@ -26,6 +26,8 @@ The uninstall batch file finds and deletes `Bottles.exe` in `C:\ProgramData\Micr
 uninstall.bat
 ```
 
+Both batch files attempt to automatically perform the action as an Administrator.
+
 #### Build:
 .exe builds are done using`pyinstaller` - `main.spec` is included.
 
