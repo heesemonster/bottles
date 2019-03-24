@@ -1,4 +1,7 @@
 ### Bottles💧
+
+![notification](image.png)
+
 A simple "drink water, silly" reminder app for Windows 10 written in Python. Bottles sends a Windows Toast Notification 
 every 20 minutes reminding you to drink water. It can be closed from its tray icon.
 
@@ -14,6 +17,8 @@ install.bat
 ```
 
 `Bottles.exe` can be manually copied or directly run from `/bottles/dist/Bottles.exe`
+
+Right-click and select `Quit` on the tray icon to quit.
 
 #### Uninstall:
 The uninstall batch file finds and deletes `Bottles.exe` in `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\`
