@@ -1,0 +1,4 @@
+infi.systray==0.1.11
+pypiwin32==223
+pywin32==224
+win10toast==0.9
