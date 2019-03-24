@@ -60,7 +60,8 @@ class BottlesTray(object):
         pass
 
     def start_alarm(self):
-        self.notifier.bottles_cycle()
+        while True:
+            self.notifier.bottles_cycle()
 
 def bye(sysTrayIcon):
     sys.exit()
